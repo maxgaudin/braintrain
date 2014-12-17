@@ -1,19 +1,76 @@
+body {
+	background: #2d112b;
+	font-family: 'Gentium Basic', serif;
+}
+
 .jumbotron {
-	padding-top: 100px;
-	background: #F3FFE2;
+	padding-top: 150px;
+	background: #C9283D;
+	padding-bottom: 100px;
+	border-bottom: 10px solid #C9283D;
+}
+
+.jumbotron h1 {
+	color: #f97c49;
+	font-size: 49px;
+	font-weight: 600;
+}
+
+.jumbotron .container p {
+	font-size: 24px;
+}
+
+.navbar {
+	min-height: 60px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #f97c49;
 }
 
 .navbar-inverse {
-	background: #1695A3;
+	background: #2d112b;
 	border: none;
 }
 
 .navbar-inverse .navbar-brand  {
-	color: #fff;
+	color: #ff6d3f;
 	text-transform: uppercase;
 	text-align: center;
 }
 
 .container p {
-	font-size: 16px;
+	font-size: 18px;
+}
+
+h1, h2, p {
+	color: #f97c49;
+}
+
+h1, h2, h3 {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+.train-image img {
+	width: 100px;
+}
+
+.two, .three {
+	padding: 40px 0 50px 0;
+}
+
+.three {
+	background: #FEDCC8;
+}
+
+.btn-primary {
+	background: #520331;
+	border: none;
+	padding: 20px 35px;
+	color: #fddcc9;
+}
+
+p.date  {
+	font-size: 35px;
 }
