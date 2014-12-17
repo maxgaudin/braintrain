@@ -3,6 +3,15 @@ body {
 	font-family: 'Gentium Basic', serif;
 }
 
+a {
+	color: #f97c49;
+
+}
+
+a:hover {
+	color: #fff;
+}
+
 .jumbotron {
 	padding-top: 150px;
 	background: #C9283D url('../img/train-interior.jpg') no-repeat;
